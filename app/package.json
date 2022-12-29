@@ -1,11 +1,11 @@
 {
-	"name": "@directus/app",
+	"name": "@saissaken/app",
 	"version": "9.22.1",
 	"description": "App dashboard for Directus",
 	"homepage": "https://directus.io",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/directus/directus.git",
+		"url": "https://github.com/saissaken/rg-directus.git",
 		"directory": "app"
 	},
 	"funding": "https://github.com/directus/directus?sponsor=1",

@@ -333,7 +333,7 @@ class ExtensionManager {
 	}
 
 	private async getSharedDepsMapping(deps: string[]): Promise<Record<string, string>> {
-		const appDir = await fse.readdir(path.join(resolvePackage('@directus/app', __dirname), 'dist', 'assets'));
+		const appDir = await fse.readdir(path.join(resolvePackage('@saissaken/app', __dirname), 'dist', 'assets'));
 
 		const depsMapping: Record<string, string> = {};
 		for (const dep of deps) {
