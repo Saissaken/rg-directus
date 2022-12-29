@@ -1,5 +1,5 @@
 {
-	"name": "directus",
+	"name": "@saissaken/rg-directus",
 	"version": "9.22.1",
 	"description": "Directus is a real-time API and App dashboard for managing SQL database content",
 	"keywords": [
@@ -27,7 +27,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/directus/directus.git",
+		"url": "https://github.com/saissaken/rg-directus.git",
 		"directory": "api"
 	},
 	"funding": "https://github.com/directus/directus?sponsor=1",
