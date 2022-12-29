@@ -68,7 +68,6 @@ importers:
     specifiers:
       '@authenio/samlify-node-xmllint': 2.0.0
       '@aws-sdk/client-ses': 3.236.0
-      '@directus/app': workspace:*
       '@directus/extensions-sdk': workspace:*
       '@directus/format-title': 9.15.0
       '@directus/schema': workspace:*
@@ -85,6 +84,7 @@ importers:
       '@ngneat/falso': 6.3.2
       '@rollup/plugin-alias': 4.0.2
       '@rollup/plugin-virtual': 3.0.1
+      '@saissaken/app': workspace:*
       '@types/async': 3.2.16
       '@types/busboy': 1.5.0
       '@types/bytes': 3.1.1
@@ -214,7 +214,6 @@ importers:
     dependencies:
       '@authenio/samlify-node-xmllint': 2.0.0_samlify@2.8.7
       '@aws-sdk/client-ses': 3.236.0
-      '@directus/app': link:../app
       '@directus/extensions-sdk': link:../packages/extensions-sdk
       '@directus/format-title': 9.15.0
       '@directus/schema': link:../packages/schema
@@ -229,6 +228,7 @@ importers:
       '@godaddy/terminus': 4.11.2
       '@rollup/plugin-alias': 4.0.2_rollup@3.7.5
       '@rollup/plugin-virtual': 3.0.1_rollup@3.7.5
+      '@saissaken/app': link:../app
       argon2: 0.30.2
       async: 3.2.4
       async-mutex: 0.4.0
