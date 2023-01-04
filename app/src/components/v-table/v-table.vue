@@ -350,7 +350,7 @@ function onSortChange(event: EndEvent) {
 <style scoped>
 :global(body) {
 	--v-table-height: auto;
-	--v-table-sticky-offset-top: 59px;
+	--v-table-sticky-offset-top: 0;
 	--v-table-color: var(--foreground-normal);
 	--v-table-background-color: var(--background-input);
 }
